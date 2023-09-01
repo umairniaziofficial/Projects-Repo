@@ -1,0 +1,118 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.container
+{
+    background-color: azure;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.music-image img
+{
+    max-width: 230px;
+    max-height: 250px;
+    margin: 20px;
+}
+
+
+.heading
+{
+    font-size: 32px;
+}
+audio
+{
+    background-color:azure ;
+}
+.music-options
+{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.bar
+{  
+    width: 80%;
+    height: 3px;
+    background-color: red;
+}
+.music-buttons
+{
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.music-buttons div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.music-buttons button
+{   
+    margin-top: 8px;
+    background-color: #28564C;
+    color:#D7F7C7;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: width 1s ease-in-out, height 1s ease-in-out,font-size 1s ease-in-out;
+}
+
+.music-buttons button:hover
+{
+    cursor: pointer;
+    background-color: #21463e;
+    color:#D7F7C7;
+    
+}
+
+.music-buttons .prev , .music-buttons .next
+{
+    
+    align-content: center;
+    justify-content: center;
+    font-size: 12px;
+    width: 75px;
+    height: 60px;
+    padding: 10px;
+}
+
+
+.heading
+{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Validation</h1>
+        <form id="myForm" onsubmit="return validateForm()">
+            <div class="label">
+                <label for="name">Username:</label><input name="name" type="text" id="name"
+                    placeholder="Enter your Name here" />
+                <span class="error" id="nameError"></span>
+            </div>
+            <div class="label">
+                <label for="email">Email: </label>
+                <input name="email" type="email" id="email" placeholder="Enter Your Email" />
+                <span class="error" id="emailError"></span>
+            </div>
+            <div class="label">
+                <label for="password">Password: </label>
+                <input name="password" type="password" id="password" placeholder="Enter your Password" />
+                <span class="error" id="passwordError"></span>
+            </div>
+            <div>
+                <input type="submit" value="Submit" id="submit" />
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
