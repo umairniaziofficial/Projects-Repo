@@ -23,7 +23,7 @@
 </p>
 
 <ul  style="list-style-type:none;">
-    <li><a href="https://www.linkedin.com/in/umair-niazi/">LinkedIn🧑‍🏫</a></li>
+    <li><a href="https://www.linkedin.com/in/umair-khan/">LinkedIn🧑‍🏫</a></li>
     <li><a href="https://www.instagram.com/nizzypedia/">Instagram🚀</a></li>
     <li><a href="https://github.com/umairniaziofficial">GitHub🏢</a></li>
 </ul>
