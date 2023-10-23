@@ -30,13 +30,19 @@ function AddTask(TodoText) {
   checkbox.type = "checkbox";
   TextLabel.textContent = TodoText;
   deleteButton.textContent = "Delete";
+  deleteButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
 
   ListItem.appendChild(checkbox);
   ListItem.appendChild(TextLabel);
   ListItem.appendChild(deleteButton);
+  ListItem.classList.add("tracking-in-expand-fwd-top");
 
   deleteButton.addEventListener("click", () => {
-    TaskListEl.removeChild(ListItem);
+    TaskListEl.classList.add("puff-out-center");
+    setTimeout(() => {
+      TaskListEl.classList.remove("puff-out-center");
+      TaskListEl.removeChild(ListItem);
+    }, 1000);
   });
 
   checkbox.addEventListener("change", () => {

@@ -1,0 +1,91 @@
+/* Adding Style  */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slideShow-container
+{
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides
+{
+    display: none;
+}
+
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    color:white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 16px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    transition: 0.3s ease-in-out;
+}
+
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.prev
+{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.prev:hover , .next:hover
+{
+    transform: scale(1.2);
+}
+
+.dot
+{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+}
+
+.active , .dot:hover
+{
+    background-color: red;
+}
+
+.fade
+{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes fade
+{
+    from
+    {
+        opacity: 0.4;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+/* CSS STYLES ADDED NOW IT"S SCRIPT TURN */

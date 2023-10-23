@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlideShow APp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slideShow-container">
+
+    <!-- Adding Images -->
+
+    <!-- Image 1 -->
+    <div class="mySlides fade">
+      <img src="https://picsum.photos/1080/1920" alt="" width="100%" >
+    </div>
+
+    <!-- Image 2 -->
+    <div class="mySlides fade">
+      <img src="https://picsum.photos/1085/1920" alt="" width="100%">
+    </div>
+
+    <!-- Image 3 -->
+    <div class="mySlides fade">
+      <img src="https://picsum.photos/1081/1920" alt="" width="100%">
+    </div>
+
+    <!-- Adding Next and Previous Buttons -->
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+    <a class="next" onclick="plusSlides(1)">&#10095</a>
+  </div>
+
+
+  <!-- Adding Fast Image Swich -->
+
+  <div class="buttons" style="text-align: center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
