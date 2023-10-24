@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2e3c4;
+}
+
+.container {
+    background-color: #f2fdff;
+    padding: 40px 60px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    animation: puff-in-center 0.5s ease-in-out;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: "Trebuchet MS";
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Turn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t1 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #f0f7f4;
+    width: 100px;
+    border: none;
+    height: 100px;
+}
+
+.game {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.box1 {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.box2 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.box3,
+.box5,
+.box6 {
+    border-right: 2px solid black;
+}
+
+.box4 {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.box5 {
+    border-bottom: 2px solid black;
+}
+
+.box7,
+.box8 {
+    border-bottom: 2px solid black;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-row div {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    font-size: 32px;
+}
+
+.aa {
+    color: green;
+}
+
+@keyframes puff-in-center {
+    0% {
+        transform: scale(2);
+        filter: blur(4px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
