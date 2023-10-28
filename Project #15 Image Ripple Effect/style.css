@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #192655;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 100;
+  font-size: 28px;
+  font-family: cursive;
+  font-weight: 600;
+  text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.6);
+}
+.image {
+  max-width: 500px;
+  height: 500px;
+  filter: brightness(0.7);
+  position: relative;
+}
+
+.ripple {
+  position: relative;
+}
+
+.ripple::before {
+  content: " ";
+  background-color: rgb(176, 176, 176);
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: var(--xPos);
+  top: var(--yPos);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  transition: height 0.5s, width 0.5s;
+}
+.ripple:hover::before {
+  width: 1500px;
+  height: 1500px;
+  opacity: 0.6;
+}
+
+.ripple:hover {
+  cursor: pointer;
+}
+
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1.50  s both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
