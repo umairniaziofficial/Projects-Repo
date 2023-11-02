@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02343f;
+  }
+  
+  .container {
+    background-color: #f0edcc;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 8px;
+    padding: 40px 80px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    color: #02343f;
+  }
+  
+  .heading {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5px 0 10px 0px;
+    font-size: 42px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+  }
+  
+  .fa-solid {
+    font-size: 100px;
+    color: brown;
+  }
+
+  .btn {
+    font-size: 24px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 8px 10px;
+    background-color: lightblue;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    filter: brightness(0.8);
+  }
+  
+  .boxes
+  {
+    display: flex;
+  }
+
+  .box
+  {
+    padding: 30px 10px;
+    background-color: yellow;
+    margin: 0px 30px;
+
+  }
+
+  .hand
+  {
+    background-color: red;
+  }
+  .scissor
+  {
+    background-color: blue;
+  }
+  .fa-hand-fist
+  {
+    color: white;
+  }
+  .fa-scissors
+  {
+    color: yellow;
+  }
+
+  .fa-solid:hover
+  {
+    filter: brightness(0.8);
+  }
+
+  .scorebox
+  {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  #playerscore
+  {
+    font-family: cursive;
+    color: blue;
+  }
+  #pcscore
+  {
+    font-family: cursive;
+    color: red;
+  }
+
+  .wonbox
+  {
+    margin-top: 30px;
+    font-size: 30px;    
+    font-weight: 700;
+    font-family: cursive;
+  }
+
+  .caption
+  {
+    font-weight: 900;
+    font-family: cursive;
+    margin:7px 0 5px 0;
+    text-transform: uppercase;
+    font-size: 7px;
+  }
