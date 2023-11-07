@@ -13,14 +13,14 @@ function updateClock() {
 
     ampm = hh > 12 ? "PM" : "AM";
 
-    mm = mm > 10 ? mm : "0" + mm;
-    ss = ss > 10 ? ss : "0" + ss;
+    mm = mm > 9 ? mm : "0" + mm;
+    ss = ss > 9 ? ss : "0" + ss;
 
     if (hh > 12) {
         hh = hh - 12;
     }
 
-    hh = hh > 10 ? hh : "0" + hh;
+    hh = hh > 9 ? hh : "0" + hh;
 
     hourEl.innerHTML = hh;
     minuteEl.innerHTML = mm;

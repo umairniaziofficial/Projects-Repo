@@ -10,9 +10,9 @@ var songPlaying = false;
 var songNumber = 0;
 
 const songs = [
-    { name: "Sidhu Anthem", path: "/Project 10 (Music Player)/Sidhu  1.mp3" },
-    { name: "Falak sa", path: "/Project 10 (Music Player)/Falak sa .mp3" },
-    { name: "Kacha Ghada", path: "/Project 10 (Music Player)/Kachha Ghada.mp3" },
+    { name: "Your Song", path: "" },
+    { name: "Your Song", path: "" },
+    { name: "Your Song", path: "" },
 ];
 
 

@@ -1,0 +1,30 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button
+{
+    padding: 100px;
+    text-align: center;
+    box-shadow: 0px 18px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.116);
+    background-color: green;
+}
+
+button:hover
+{
+    filter: brightness(0.7);
+    cursor: pointer;
+}

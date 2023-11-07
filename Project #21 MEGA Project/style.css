@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+
+
+.navlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 22px 0px;
+    font-size: 24px;
+    background-color: black;
+}
+
+.navlist li a,
+li {
+    text-decoration: none;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 1px solid transparent;
+
+    color: white;
+}
+
+.navlist li a::content
+{
+    background-color: rebeccapurple;
+}
+
+.navlist li a:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+input[type="text"] {
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: rgba(123, 123, 123, 0.662);
+}
+
+.fa-magnifying-glass {
+    font-size: 14px;
+    border: 0;
+    background-color: #496181;
+    margin-left: 2px;
+    border-radius: 0px 4px 4px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 4.6px 10px 6px 5px;
+}
+
+.navlist li a:hover {
+    color: rgb(171, 0, 171);
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    filter: brightness(0.9);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.image-text {
+    position: absolute;
+    color: white;
+    padding: 10px 40px;
+    font-size: 44px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.363);
+    text-align: center;
+}
+
+.skillset {
+    width: 100%;
+    background-color: #293858;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.skillset h3
+{
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:white;
+    padding-top: 8px;
+}
+
+.skills {
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skill i
+{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.skill img
+{
+    width: 50px;
+    height: 50px;
+}
+.java
+{
+    width: 60px;
+    height: 60px;
+}
+.skills:hover {
+    cursor: default;
+}
+
+.row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row .column {
+    background-color: #49618148;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    height: 530px;
+    margin: 10px 10px;
+}
+
+.column {
+    overflow: hidden;
+}
+
+.column img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.card-text
+{
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: #49618137;
+    height: 30%;
+    width: 100%;
+}
+
+.card-text p
+{
+    padding: 10px;
+}
+.card-text a
+{
+    text-decoration: none;
+   
+}
+.card-text a h4:hover
+{
+    cursor: pointer;
+    border: 1px solid white;
+    color: rgb(171, 0, 171);
+
+}
+
+.column h4 {
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.column p {
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Accounts
+{
+    margin: 5px 30px;
+}
+.card-left,.card-right
+{
+    width: 100%;
+    margin:30px 0px;
+    font-family: sans-serif;
+    border-radius: 12px;
+    height: 400px;
+    background-color: #4961815e;
+    color: white;
+}
+.card-left img
+{
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+.card-right img
+{   
+
+    width: 600px;
+    height: 400px;
+    border-radius: 10px 10px 10px 0px;
+    float: right;
+}
+
+.Accounts h2
+{
+    font-size: 44px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+.Accounts p
+{
+    padding: 5px 10px;
+    font-size: 22px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer
+{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    bottom: 0;
+    background-color: #293858;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}

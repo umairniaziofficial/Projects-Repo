@@ -10,13 +10,21 @@ body {
   }
   
   .form {
-    background-color: #F0EDCC;
+    background-color: #f0edcc;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin: 10px;
   }
 
+  .heading
+  {
+    font-weight: 700;
+    font-size:32px;
+    text-transform: uppercase;
+    letter-spacing:5px;
+
+  }
 
   .input {
     display: block;
