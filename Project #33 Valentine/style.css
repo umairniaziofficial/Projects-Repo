@@ -1,0 +1,62 @@
+body
+{
+    background-color: #f8e9f8;
+    overflow: hidden;
+}
+
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.mochi
+{
+    height: 200px;
+    width: auto;
+}
+
+.btn
+{
+    font-size: 32px;
+    padding: 20px;
+    outline: 0;
+    border: 0;
+    font-weight:900;
+    font-family: Cambria, Cochin;
+    color:  white;
+}
+
+.yes
+{
+    background-color: rgb(126, 209, 1);
+}
+.no
+{
+    background-color: rgb(178, 0, 0);
+}
+
+.btn:hover
+{
+    filter:contrast(1.4);
+    cursor: pointer;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    font-size: 12px;
+}
