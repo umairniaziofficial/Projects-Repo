@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  var countdownTime = new Date("2023-09-01T00:00:00").getTime();
+  var countdownTime = new Date("2025-01-01T00:00:00").getTime();
 
   var x = setInterval(function () {
     var today = new Date().getTime();
