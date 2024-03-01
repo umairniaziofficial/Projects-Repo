@@ -1,0 +1,95 @@
+:root
+{
+    --mybg: #CDFADB;
+    --myfont: #F6FDC3;
+    --myborder: rgb(222, 222, 222);
+    --myprogressbg: #00008b;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--mybg);
+    overflow: hidden;
+    align-items: center;
+}
+
+.container
+{
+    text-align: center;
+}
+
+.progress-container
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    width: 340px;
+}
+.progress-container::before
+{
+    position: absolute;
+    content: " ";
+    background-color: rgb(221, 221, 221);
+    height: 4px;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+.progress
+{   position:absolute;
+    background-color: var(--myprogressbg);
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0;
+    left: 0;
+    z-index: -1;
+    top: 50%;
+}
+.steps
+{
+    background-color: orange;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+    width: 40px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid var(--myborder);
+}
+
+.steps.active
+{
+    border-color: var(--myprogressbg);
+}
+.button-container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn
+{
+    padding: 5px 30px;
+    margin: 0 5px;
+    text-transform: uppercase;
+    background-color: rgb(170, 241, 241);
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+}
+
+button:disabled
+{
+    cursor:not-allowed;
+    filter: opacity(0.3);
+}
