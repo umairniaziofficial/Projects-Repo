@@ -121,7 +121,7 @@ body {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  
+  font-size: 14px;
   transform: translateY(-30px);
 }
 
