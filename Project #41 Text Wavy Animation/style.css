@@ -102,7 +102,7 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: lightblue;
+  border-bottom-color: #727ab5;
 }
 
 .form-control label {
