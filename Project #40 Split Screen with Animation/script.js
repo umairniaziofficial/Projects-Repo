@@ -1,17 +1,16 @@
+const container = document.querySelector(".container");
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
-const container = document.querySelector(".container");
 
-left.addEventListener("mouseenter", () =>
-  container.classList.add("hover-left")
-);
-left.addEventListener("mouseleave", () =>
-  container.classList.remove("hover-left")
-);
+function toggleHoverClass(element, className) {
+  element.addEventListener("mouseenter", () => {
+    container.classList.add(className);
+  });
+  element.addEventListener("mouseleave", () => {
+    container.classList.remove(className);
+  });
+}
 
-right.addEventListener("mouseenter", () =>
-  container.classList.add("hover-right")
-);
-right.addEventListener("mouseleave", () =>
-  container.classList.remove("hover-right")
-);
+// Toggle hover class for left and right elements
+toggleHoverClass(left, "hover-left");
+toggleHoverClass(right, "hover-right");
