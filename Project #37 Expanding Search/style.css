@@ -1,0 +1,88 @@
+/* background-image: linear-gradient(
+    0deg,
+    hsl(210deg 98% 78%) 0%,
+    hsl(211deg 99% 83%) 10%,
+    hsl(212deg 99% 88%) 20%,
+    hsl(213deg 100% 92%) 30%,
+    hsl(214deg 100% 96%) 40%,
+    hsl(0deg 0% 100%) 50%,
+    hsl(214deg 100% 96%) 60%,
+    hsl(213deg 100% 92%) 70%,
+    hsl(212deg 99% 88%) 80%,
+    hsl(211deg 99% 83%) 90%,
+    hsl(210deg 98% 78%) 100%
+  ); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    0deg,
+    hsl(210deg 98% 78%) 0%,
+    hsl(211deg 99% 83%) 10%,
+    hsl(212deg 99% 88%) 20%,
+    hsl(213deg 100% 92%) 30%,
+    hsl(214deg 100% 96%) 40%,
+    hsl(0deg 0% 100%) 50%,
+    hsl(214deg 100% 96%) 60%,
+    hsl(213deg 100% 92%) 70%,
+    hsl(212deg 99% 88%) 80%,
+    hsl(211deg 99% 83%) 90%,
+    hsl(210deg 98% 78%) 100%
+  );
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+}
+
+.search .input {
+  border: 0;
+  background-color: rgb(233, 233, 233);
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
+  transition: width 0.3s ease;
+}
+
+.btn {
+  background-color: black;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active .input {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+}
