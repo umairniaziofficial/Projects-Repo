@@ -17,8 +17,7 @@ function selectRandomButton() {
         if (iterations === 0) {
             changeColor(buttons);
             clearInterval(interval);
-            buttons[randomIndex].style.backgroundColor = "lightgreen";
-            buttons[randomIndex].style.color = "black";
+            buttons[randomIndex].style.backgroundColor = "darkgreen";
         }
     }, 200);
 }

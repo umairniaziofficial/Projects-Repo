@@ -17,15 +17,18 @@ body
 {
     display: flex;
     justify-content: center;
+    padding: 0 30px;
     align-items: center;
+    width: 100vw;
     font-family: sans-serif;
     color: var(--font-color);
     background-color: var(--bg-color);
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .container
 {
-    margin: 100px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +42,12 @@ body
     flex-wrap: wrap;
     transition: 0.5s ease;
 }
+.textarea-container {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    overflow-y: auto;
+  }
 
 .container h1
 {
@@ -100,4 +109,10 @@ button
     font-size: 15px;
     color: var(--button-bg-color);
     transition: 0.5s ease-in;
+}
+
+
+@media screen and (max-width: 768px){
+  
+
 }
