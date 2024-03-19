@@ -1,68 +1,103 @@
- * {
-     padding: 0;
-     margin: 0;
- }
-
- body {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-     font-family: sans-serif;
-     background-color: lightsalmon;
-
- }
-
- .container {
-     background-color: white;
-     padding: 40px 100px;
-     border-radius: 8px;
-     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-
- }
-
- h1 {
-     text-transform: uppercase;
-     margin-bottom: 20px;
-    text-align: center;
- }
-
- form div {
-     font-size: 18px;
-     padding: 10px;
- }
-
- label {
-     font-size: 20px;
-     font-weight: 600;
- }
-
- input {
-     width: 100%;
-     margin-top: 5px;
-     font-size: 18px;
-     padding: 2px 0px 2px 5px;
- }
-
- input::placeholder {
-     padding: 4px 6px;
- }
- 
- input[type="submit"] 
-{
-    font-size: 18px;
-    font-weight: 600;
-    padding-right: 15px;
-    background-color: green;
-    color: white;
-    border-radius: 4px;
-    text-transform: uppercase;
-    outline: none;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.error
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: steelblue;
+  transition: 0.5s ease;
+
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  width: 402.587px;
+  height: 385.50px;
+  padding: 30px 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s ease;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form div {
+  font-size: 18px;
+  padding: 10px;
+}
+
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 2px 0px 2px 5px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.5s ease;
+}
+
+input::placeholder {
+  padding: 4px 6px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  font-size: 18px;
+  padding-right: 15px;
+  background-color: steelblue;
+  border: 1px solid black;
+  padding: 5px 0;
+  letter-spacing: 4px;
+  font-size: 16x;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+input[type="submit"]:hover
 {
-    font-size: 22px;
-    text-align: center;
-    color: red;
+    filter: brightness(0.8);
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-size: 12px;
+}
+
+p {
+  font-size: 12px;
+}
+
+p a {
+  text-decoration: none;
+  color: steelblue;
+}
+a:hover
+{
+    border-bottom: 1px solid blue;
+
 }
