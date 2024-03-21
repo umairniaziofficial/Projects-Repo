@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-  <title>FAQ Expanding</title>
-</head>
-<body>
-  <div class="container">
-    <div class="faq-container">
-      <div class="faq-item">
-        <h3 class="title">What is Orange?</h3>
-        <h4 class="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore exercitationem consequatur est inventore. Dolorum voluptate, ex dolorem modi sequi perspiciatis!</h4>
-        <button class="btn">
-          <i class="fa fa-chevron-circle-down"></i>
-          <i class="fa fa-x"></i>
-        </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>FAQ Expanding</title>
+  </head>
+
+  <body class="bg-slate-500 min-h-screen pb-10">
+    <div
+      class="container flex flex-col items-center justify-center mt-10 bg-slate-300"
+    >
+      <h1 class="heading m-5 text-3xl uppercase tracking-widest">
+        Faq container
+      </h1>
+      <div class="faq-container">
+        <div class="faq  active bg-white p-5 m-10 shadow-lg relative">
+          <h3 class="faq-title my-2 text-lg font-semibold tracking-widest">
+            What is Orange?
+          </h3>
+          <h4 class="faq-text subtitle my-3 text-slate-800">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            exercitationem consequatur est inventore. Dolorum voluptate, ex
+            dolorem modi sequi perspiciatis!
+          </h4>
+          <button class="faq-toggle btn bg-slate-100 px-5 absolute right-5 top-3">
+            <i class="fas fa-chevron-circle-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
