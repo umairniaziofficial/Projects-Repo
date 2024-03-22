@@ -12,29 +12,57 @@
     <title>FAQ Expanding</title>
   </head>
 
-  <body class="bg-slate-500 min-h-screen pb-10">
-    <div
-      class="container flex flex-col items-center justify-center mt-10 bg-slate-300"
-    >
-      <h1 class="heading m-5 text-3xl uppercase tracking-widest">
+  <body class="min-h-screen">
+    <div class="container flex flex-col items-center justify-center">
+      <h1
+        class="heading m-5 text-3xl uppercase tracking-widest text-white shadow-2xl font-semibold"
+      >
         Faq container
       </h1>
-      <div class="faq-container">
-        <div class="faq  active bg-white p-5 m-10 shadow-lg relative">
-          <h3 class="faq-title my-2 text-lg font-semibold tracking-widest">
-            What is Orange?
-          </h3>
-          <h4 class="faq-text subtitle my-3 text-slate-800">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-            exercitationem consequatur est inventore. Dolorum voluptate, ex
-            dolorem modi sequi perspiciatis!
-          </h4>
-          <button class="faq-toggle btn bg-slate-100 px-5 absolute right-5 top-3">
-            <i class="fas fa-chevron-circle-down"></i>
-            <i class="fas fa-times"></i>
-          </button>
+
+      <div class="faq-container w-4/5">
+
+        <div class="faq shadow-lg relative pizza">
+            <h3 class="faq-title my-2 text-lg font-semibold tracking-widest">
+                What is Pizza?
+            </h3>
+            <h4 class="faq-text subtitle my-3 text-slate-800">
+                Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.
+            </h4>
+            <button class="faq-toggle btn absolute right-5 top-3" id="btn">
+                <i class="fas fa-chevron-circle-down text-2xl"></i>
+                <i class="fas fa-times text-3xl"></i>
+            </button>
         </div>
-      </div>
+
+        <div class="faq shadow-lg relative burger">
+            <h3 class="faq-title my-2 text-lg font-semibold tracking-widest">
+                What is Burger?
+            </h3>
+            <h4 class="faq-text subtitle my-3 text-slate-800">
+                A burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan-fried, grilled, or flame-broiled. It is often served with various toppings and condiments such as lettuce, tomato, onion, pickles, cheese, bacon, and sauces like ketchup, mustard, and mayonnaise.
+            </h4>
+            <button class="faq-toggle btn absolute right-5 top-3" id="btn">
+                <i class="fas fa-chevron-circle-down text-2xl"></i>
+                <i class="fas fa-times text-3xl"></i>
+            </button>
+        </div>
+
+        <div class="faq shadow-lg relative fries">
+            <h3 class="faq-title my-2 text-lg font-semibold tracking-widest">
+                What are Fries?
+            </h3>
+            <h4 class="faq-text subtitle my-3 text-slate-800">
+                Fries, also known as French fries, chips, finger chips, or French-fried potatoes, are batonnet or allumette-cut deep-fried potatoes. They are crispy on the outside and soft on the inside, typically salted and served hot.
+            </h4>
+            <button class="faq-toggle btn absolute right-5 top-3" id="btn">
+                <i class="fas fa-chevron-circle-down text-2xl"></i>
+                <i class="fas fa-times text-3xl"></i>
+            </button>
+        </div>
+       
+    </div>
+    
     </div>
     <script src="script.js"></script>
   </body>
