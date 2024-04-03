@@ -25,7 +25,6 @@ function selectRandomButton() {
 textareaEl.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
        const value =textareaEl.value.split(",").map(item =>item.trim()).filter(item=> item!="");
-       textareaEl.value = "";
         buttonsEl.innerHTML = "";
         if(value.length > 100)
         {
