@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Increasing Follower Count</title>
 </head>
 <body>
     <div class="container">
         <div class="counter-div">
             <div class="brand">
-                <i class="insta"></i>
-                <p><span id="count"></span>K</p>
+                <i class="fa fa-brands fa-instagram" style="color: rgb(255, 85, 142);"></i>
+                <p class="count"> <span id="instagram-followers" class="counter" data-target="3231300">0</span></p>
+            </div>  
+            <div class="brand">
+                <i class="fa fa-brands fa-tiktok"></i>
+                <p class="count"> <span id="tiktok-followers" class="counter" data-target="124124124">0</span></p>
             </div>
             <div class="brand">
-                <i class="titok"></i>
-                <p><span id="count"></span>K</p>
-            </div>
-            <div class="brand">
-                <i class="youtube"></i>
-                <p><span id="count"></span>K</p>
+                <i class="fa fa-brands fa-youtube" style="color: red;"></i>
+                <p class="count"> <span id="youtube-followers" class="counter" data-target="1512512">0</span></p>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
