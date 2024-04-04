@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="no-copy">Canvas Whiteboard</h1>
+    <div class="container">
+      <section class="options">
+        <ul class="no-copy">
+          <li>
+            <label for="strokeStyle">Line Colour</label>
+            <input type="color" name="strokeStyle" value="#000000" />
+          </li>
+          <li>
+            <label for="lineWidth">Line Width</label>
+            <input type="range" name="lineWidth" min="1" max="100" value="10" />
+          </li>
+          <li>
+            <label for="lineCap">Line Cap</label>
+            <select name="lineCap">
+              <option value="round" selected>Round</option>
+              <option value="butt">Butt</option>
+              <option value="square">Square</option>
+            </select>
+          </li>
+          <li>
+            <button class="pushable">
+              <span class="shadow"></span>
+              <span class="edge"></span>
+              <span class="front"> Clear </span>
+            </button>
+          </li>
+        </ul>
+      </section>
+      <div>
+        <canvas width="1000" height="500"></canvas>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
