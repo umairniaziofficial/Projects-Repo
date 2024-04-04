@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  font-family: "Poppins", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+}
+.container {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.container .box {
+  position: relative;
+  width: 160px;
+  border-radius: 16px;
+  height: 160px;
+  border: 2px solid black;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  background-image: url(a.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.box.hover {
+  border-style: dotted;
+}
