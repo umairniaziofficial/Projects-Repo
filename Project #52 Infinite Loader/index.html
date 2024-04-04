@@ -1,74 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Demo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-        rel="stylesheet" />
-
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
-    <div class="while-loading">
-        <div class="loader"></div>
-    </div>
+  <body>
+    <!-- Add only this line for lodaer -->
+    <div class="loader"></div>
+
+    <!-- Your Content Here -->
     <div id="content" style="display: none">
-       
-<button class="sidebar-toggle">☰</button>
+      <button class="sidebar-toggle">☰</button>
 
-<div class="intro">
-  <h2>The Delightful World of Crayfish.</h2>
-  <p>Crayfish, also known as crawfish or crawdads in certain regions, embody the fascinating diversity of freshwater ecosystems. These intriguing creatures, often found scuttling along the muddy bottoms of streams and lakes, offer a glimpse into the complex and vibrant underwater world.</p>
-  <p>Amidst the aquatic ballet of flowing plants and darting fish, crayfish contribute a unique element of dynamism and resilience. These creatures, often overlooked, are the engineers of the underwater world, creating intricate burrows and tunnels that provide shelter and breeding grounds not only for themselves but for a host of other organisms. This architectural prowess enhances the structural complexity of their habitats, promoting biodiversity and fostering a robust ecosystem. </p>
-</div>
-<div class="sidebar-container">
-  <div class="sidebar-wrapper">
-    <div class="sidebar">
-      <div class="reading-progress-container">
-        <div class="reading-progress-bar"></div>
+      <div class="intro">
+        <h2>The Delightful World of Crayfish.</h2>
+        <img
+          src="https://images.unsplash.com/photo-1523275033438-8c0a9239935b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          style="max-width: 100%"
+          alt=""
+        />
+
+        <p>
+          Crayfish, also known as crawfish or crawdads in certain regions,
+          embody the fascinating diversity of freshwater ecosystems. These
+          intriguing creatures, often found scuttling along the muddy bottoms of
+          streams and lakes, offer a glimpse into the complex and vibrant
+          underwater world.
+        </p>
+        <p>
+          Amidst the aquatic ballet of flowing plants and darting fish, crayfish
+          contribute a unique element of dynamism and resilience. These
+          creatures, often overlooked, are the engineers of the underwater
+          world, creating intricate burrows and tunnels that provide shelter and
+          breeding grounds not only for themselves but for a host of other
+          organisms. This architectural prowess enhances the structural
+          complexity of their habitats, promoting biodiversity and fostering a
+          robust ecosystem.
+        </p>
+      </div>
+      <div class="sidebar-container">
+        <div class="sidebar-wrapper">
+          <div class="sidebar">
+            <div class="reading-progress-container">
+              <div class="reading-progress-bar"></div>
+            </div>
+          </div>
+          <div class="author-box">
+            <img
+              src="https://i.pinimg.com/564x/31/ca/cf/31cacfc8bceb2011c2f23ea32d2fbfa1.jpg"
+              class="author-gravatar"
+              alt=""
+            />
+            <div class="author-info">
+              <span class="author-title">Author</span>
+              <span class="author-name">Nizzy</span>
+            </div>
+
+            <span id="dark-mode-toggle" class="fas fa-lightbulb" style="font-size: 16px;"></span>
+          </div>
+        </div>
+
+        <div class="post-content">
+          <h3 class="header-one">Habitat and Distribution</h3>
+          <p>
+            Crayfish make their homes in a variety of freshwater environments.
+            From swiftly flowing rivers to the still waters of ponds and lakes,
+            they are masters of adaptation. Their ability to thrive in diverse
+            habitats has led to a wide distribution, with species found across
+            the globe, each adapted to its unique environmental niche.
+          </p>
+          <img
+            src="https://images.unsplash.com/photo-1573423050749-8943c26417d6?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            style="max-width: 100%"
+            alt=""
+          />
+          <h3>Physical Characteristics</h3>
+          <p>
+            Characterized by their robust claws and armored exoskeletons,
+            crayfish are the warriors of the aquatic realm. Their striking
+            appearance, often adorned with hues of green, red, or brown, not
+            only serves as camouflage but also as a warning to potential
+            predators of their formidable defenses.
+          </p>
+          <h3>Social Behavior</h3>
+          <p>
+            Despite their rugged exterior, crayfish engage in surprisingly
+            complex social interactions. They communicate through a series of
+            tactile and chemical signals, which govern their behaviors from
+            mating rituals to territorial disputes. This intricate social
+            structure is a testament to the evolutionary sophistication of these
+            seemingly simple creatures.
+          </p>
+          <img
+            src="https://images.unsplash.com/photo-1551400574-09995c73a049?q=80&w=3715&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            style="max-width: 100%"
+            alt=""
+          />
+          <h3>Conservation Concerns</h3>
+          <p>
+            The balance of crayfish populations is delicate, with many species
+            facing threats from habitat destruction, pollution, and the
+            introduction of invasive species. The preservation of their habitats
+            is essential for maintaining the biodiversity of freshwater
+            ecosystems, highlighting the need for conservation efforts to
+            protect these remarkable creatures and their environment.
+          </p>
+        </div>
+      </div>
+      <div class="outro">
+        <p>
+          Adopting a crayfish as a pet can be a unique and rewarding experience
+          for those interested in aquatic life. Crayfish are known for their
+          interesting behaviors and can be quite entertaining to watch, but they
+          may also be aggressive towards other tank mates, so careful
+          consideration of tank companions is crucial. With the right care and
+          environment, a crayfish can be a captivating addition to your home
+          aquarium.
+        </p>
+        <p>
+          In the delightful world of crayfish, every pebble turned and every
+          leaf inspected reveals the intricate tapestry of life that thrives
+          beneath the water's surface. Their existence enriches our natural
+          world, reminding us of the beauty and complexity that lies just
+          beneath the ripples of our lakes and rivers.
+        </p>
       </div>
     </div>
-    <div class="author-box">
-        <img src='https://i.pinimg.com/564x/31/ca/cf/31cacfc8bceb2011c2f23ea32d2fbfa1.jpg' class="author-gravatar" alt=''/>
-      <div class="author-info">
-        <span class="author-title">Author</span>
-        <span class="author-name">Nizzy</span>
-      </div>
 
-      <span id="dark-mode-toggle" class="material-symbols-outlined light-icon">
-        lightbulb_circle
-      </span>
-    </div>
-  </div>
-
-  <div class="post-content">
-    <h3 class="header-one">Habitat and Distribution</h3>
-    <p>Crayfish make their homes in a variety of freshwater environments. From swiftly flowing rivers to the still waters of ponds and lakes, they are masters of adaptation. Their ability to thrive in diverse habitats has led to a wide distribution, with species found across the globe, each adapted to its unique environmental niche.</p>
-    <h3>Physical Characteristics</h3>
-    <p>Characterized by their robust claws and armored exoskeletons, crayfish are the warriors of the aquatic realm. Their striking appearance, often adorned with hues of green, red, or brown, not only serves as camouflage but also as a warning to potential predators of their formidable defenses.</p>
-    <h3>Social Behavior</h3>
-    <p>Despite their rugged exterior, crayfish engage in surprisingly complex social interactions. They communicate through a series of tactile and chemical signals, which govern their behaviors from mating rituals to territorial disputes. This intricate social structure is a testament to the evolutionary sophistication of these seemingly simple creatures.</p>
-    <h3>Conservation Concerns</h3>
-    <p>The balance of crayfish populations is delicate, with many species facing threats from habitat destruction, pollution, and the introduction of invasive species. The preservation of their habitats is essential for maintaining the biodiversity of freshwater ecosystems, highlighting the need for conservation efforts to protect these remarkable creatures and their environment.</p>
-  </div>
-</div>
-<div class="outro">
-  <p>
-    Adopting a crayfish as a pet can be a unique and rewarding experience for those interested in aquatic life. Crayfish are known for their interesting behaviors and can be quite entertaining to watch, but they may also be aggressive towards other tank mates, so careful consideration of tank companions is crucial. With the right care and environment, a crayfish can be a captivating addition to your home aquarium.</p>
-  <p>In the delightful world of crayfish, every pebble turned and every leaf inspected reveals the intricate tapestry of life that thrives beneath the water's surface. Their existence enriches our natural world, reminding us of the beauty and complexity that lies just beneath the ripples of our lakes and rivers.</p>
-</div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-
+    <script src="script.js" defer></script>
+  </body>
 </html>
