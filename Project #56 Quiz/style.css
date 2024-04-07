@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+:root {
+  --bg: #003c43;
+  --container-bg: #e3fef7;
+  --label-bg: #135d66;
+  --button-bg: #77b0aa;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-color: var(--bg);
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  background-color: var(--container-bg);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(00, 0, 0, 2);
+  width: 500px;
+  height: auto;
+  padding: 40px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.answers > div {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.answers input {
+  margin-right: 10px;
+}
+
+.answers label {
+  padding: 20px;
+  background-color: var(--label-bg);
+  margin: 10px;
+  font-size: 22px;
+  color: white;
+}
+.answers label:hover {
+  cursor: pointer;
+}
+
+.answers input[type="radio"] {
+  width: 15px;
+  height: 15px;
+}
+
+input[type="radio"] {
+    accent-color: brown;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  border: 0;
+  font-size: 20px;
+  color: #003c43;
+  font-weight: 600;
+  padding: 10px;
+  background-color: var(--button-bg);
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #135d66;
+  color: #77b0aa;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+}
+
+
+.btn2 {
+  background-color: #8e44ad;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+.btn2 :hover {
+  background-color: #732d91;
+}
+
+.btn2 :focus {
+  outline: none;
+  background-color: #5e3370;
+}

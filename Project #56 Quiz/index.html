@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css"
+      integrity="sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Quiz App</h1>
+      <div class="quizbox">
+        <h3 style="margin: 10px 0; width: 100%">
+          Q: <span id="question">Which one of them is a fruit?</span>
+        </h3>
+        <h3 style="margin: 10px 0">Options:</h3>
+        <form class="answers">
+          <label for="a">
+            <input type="radio" name="answer" id="a" />
+            <span id="opt_A_text">Mango</span>
+          </label>
+          <label for="b">
+            <input type="radio" name="answer" id="b" />
+            <span id="opt_B_text">Orange</span>
+          </label>
+          <label for="c">
+            <input type="radio" name="answer" id="c" />
+            <span id="opt_C_text">Dasdsad</span>
+          </label>
+        </form>
+        <button id="submit" class="btn">Submit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
