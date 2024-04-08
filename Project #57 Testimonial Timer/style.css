@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+  font-weight: 500;
+  background-color: var(--containerbg);
+  font-family: "poppins", sans-serif;
+  background-color: #222831;
+  color: black;
+}
+
+.container {
+  background-color: #eeeeee;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s ease;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+h3 {
+  font-weight: 500;
+}
+
+.card {
+  margin-top: 2cap;
+  transition: 0.5s ease;
+}
+.author-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  transition: 0.5s ease;
+}
+
+.author-box .author-info {
+  margin: 0px 30px;
+  color: #393e46;
+  font-size: 12px;
+}
+
+img {
+  border-radius: 50%;
+  transition: 0.5s ease;
+
+}
+
+.bar {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 3px;
+  background-color: #393e46;
+  max-width: 100%;
+}
+#author-image
+{
+  width: 50px;
+  height: 50px;
+}
