@@ -12,7 +12,6 @@ body {
   background-color: #15a2eb;
   font-family: "Poppins", sans-serif;
   flex-wrap: wrap;
-
 }
 
 h1 {
@@ -44,7 +43,6 @@ h3 strong {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-
 }
 .boxes input {
   text-align: center;
