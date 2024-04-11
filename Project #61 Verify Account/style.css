@@ -11,6 +11,8 @@ body {
   align-items: center;
   background-color: #15a2eb;
   font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+
 }
 
 h1 {
@@ -34,6 +36,7 @@ h3 strong {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .boxes {
